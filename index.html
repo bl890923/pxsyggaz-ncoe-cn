@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>沛县广告公司_沛县标识标牌_沛县发光字_沛县工地标准化_沛县楼顶大字_沛县门头招牌_沛县文化墙 - 沛县苏艺广告有限公司</title>
+    <meta name="keywords" content="沛县广告公司,沛县标识标牌,沛县发光字,沛县工地标准化,沛县楼顶大字,沛县门头招牌,沛县文化墙,沛县广告设计,沛县广告制作,沛县广告安装,沛县广告宣传 - 沛县苏艺广告有限公司">
+    <meta name="description" content="沛县苏艺广告有限公司是一家专注于广告设计、制作、安装及宣传的综合型企业。公司位于徐州市沛县南环路领创国际广场D27，拥有丰富的行业经验和技术团队，提供标识标牌、发光字、工地标准化、楼顶大字、门头招牌、文化墙等全面的广告服务。联系电话：18952151583，18952228500。">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Microsoft YaHei", "PingFang SC", sans-serif;
+        }
+        
+        :root {
+            --primary: #2c3e50;
+            --secondary: #e74c3c;
+            --accent: #3498db;
+            --light: #f5f5f5;
+            --dark: #333;
+            --gray: #95a5a6;
+            --shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            --transition: all 0.3s ease;
+        }
+        
+        body {
+            background-color: var(--light);
+            color: var(--dark);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+        
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        /* 导航栏样式 */
+        header {
+            background-color: var(--primary);
+            padding: 15px 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: var(--shadow);
+        }
+        
+        .nav-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            color: white;
+            font-size: 28px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+        }
+        
+        .logo i {
+            margin-right: 10px;
+            color: var(--secondary);
+        }
+        
+        .contact-info {
+            color: white;
+            display: flex;
+            gap: 20px;
+        }
+        
+        .contact-info span {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        
+        /* Banner样式 */
+        .banner {
+            width: 100%;
+            height: 500px;
+            background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .banner::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="%23ffffff" fill-opacity="0.1" d="M0,96L48,112C96,128,192,160,288,186.7C384,213,480,235,576,213.3C672,192,768,128,864,128C960,128,1056,192,1152,192C1248,192,1344,128,1392,96L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>');
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .banner-content {
+            position: relative;
+            z-index: 1;
+            max-width: 800px;
+            padding: 0 20px;
+        }
+        
+        .banner h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+        }
+        
+        .banner p {
+            font-size: 20px;
+            margin-bottom: 30px;
+            opacity: 0.9;
+        }
+        
+        .btn {
+            display: inline-block;
+            background-color: var(--secondary);
+            color: white;
+            padding: 12px 30px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: var(--transition);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        
+        .btn:hover {
+            background-color: #c0392b;
+            transform: translateY(-3px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+        }
+        
+        /* 主要内容样式 */
+        .section {
+            padding: 80px 0;
+        }
+        
+        .section-title {
+            text-align: center;
+            margin-bottom: 50px;
+            color: var(--primary);
+            font-size: 36px;
+            position: relative;
+        }
+        
+        .section-title::after {
+            content: "";
+            display: block;
+            width: 80px;
+            height: 4px;
+            background-color: var(--secondary);
+            margin: 15px auto;
+            border-radius: 2px;
+        }
+        
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 25px;
+        }
+        
+        .gallery-item {
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+            background-color: white;
+            position: relative;
+        }
+        
+        .gallery-item:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+        }
+        
+        .gallery-item img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+            transition: var(--transition);
+        }
+        
+        .gallery-item:hover img {
+            transform: scale(1.05);
+        }
+        
+        .gallery-item::after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 5px;
+            background: linear-gradient(90deg, var(--secondary), var(--accent));
+        }
+        
+        /* 企业简介样式 */
+        .about {
+            background-color: white;
+            position: relative;
+        }
+        
+        .about::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="%23f5f5f5" fill-opacity="1" d="M0,224L48,213.3C96,203,192,181,288,181.3C384,181,480,203,576,192C672,181,768,139,864,138.7C960,139,1056,181,1152,181.3C1248,181,1344,139,1392,117.3L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>');
+            background-size: cover;
+            background-position: center;
+            opacity: 0.5;
+        }
+        
+        .about-content {
+            max-width: 1196px;
+            margin: 0 auto;
+            text-align: justify;
+            line-height: 1.8;
+            position: relative;
+            z-index: 1;
+            background-color: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: var(--shadow);
+        }
+        
+        .about-content p {
+            margin-bottom: 20px;
+            font-size: 17px;
+        }
+        
+        /* 页脚样式 */
+        footer {
+            background-color: var(--primary);
+            color: white;
+            padding: 50px 0 20px;
+        }
+        
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-bottom: 30px;
+        }
+        
+        .footer-section h3 {
+            font-size: 20px;
+            margin-bottom: 20px;
+            position: relative;
+            padding-bottom: 10px;
+        }
+        
+        .footer-section h3::after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 50px;
+            height: 2px;
+            background-color: var(--secondary);
+        }
+        
+        .footer-section p {
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .footer-bottom {
+            text-align: center;
+            padding-top: 20px;
+            border-top: 1px solid rgba(255,255,255,0.1);
+        }
+        
+        /* 响应式设计 */
+        @media (max-width: 992px) {
+            .banner h1 {
+                font-size: 40px;
+            }
+            
+            .banner p {
+                font-size: 18px;
+            }
+            
+            .section-title {
+                font-size: 32px;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .banner {
+                height: 400px;
+            }
+            
+            .banner h1 {
+                font-size: 32px;
+            }
+            
+            .banner p {
+                font-size: 16px;
+            }
+            
+            .gallery {
+                grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            }
+            
+            .section-title {
+                font-size: 28px;
+            }
+            
+            .nav-container {
+                flex-direction: column;
+                gap: 15px;
+            }
+            
+            .contact-info {
+                flex-direction: column;
+                gap: 10px;
+                text-align: center;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .banner {
+                height: 350px;
+            }
+            
+            .banner h1 {
+                font-size: 28px;
+            }
+            
+            .gallery {
+                grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            }
+            
+            .about-content {
+                padding: 20px;
+            }
+            
+            .section {
+                padding: 50px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- 导航栏 -->
+    <header>
+        <div class="container nav-container">
+            <div class="logo">
+                <i class="fas fa-paint-brush"></i>
+                苏艺广告
+            </div>
+            <div class="contact-info">
+                <span><i class="fas fa-phone"></i> 联系电话：18952151583</span>
+                <span><i class="fas fa-phone"></i> 18952228500</span>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Banner -->
+    <section class="banner">
+        <div class="banner-content">
+            <h1>专业广告设计与制作</h1>
+            <p>沛县苏艺广告有限公司 - 提供标识标牌、发光字、工地标准化、楼顶大字、门头招牌、文化墙等全方位广告服务</p>
+            <a href="#contact" class="btn">立即咨询</a>
+        </div>
+    </section>
+    
+    <!-- 主要内容 -->
+    <main>
+        <!-- 标识标牌宣传栏 -->
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title">标识标牌宣传栏</h2>
+                <div class="gallery" id="signage-gallery">
+                    <!-- 图片将通过JavaScript动态加载 -->
+                </div>
+            </div>
+        </section>
+        
+        <!-- 发光字 -->
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title">发光字</h2>
+                <div class="gallery" id="lightword-gallery">
+                    <!-- 图片将通过JavaScript动态加载 -->
+                </div>
+            </div>
+        </section>
+        
+        <!-- 工地标准化 -->
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title">工地标准化</h2>
+                <div class="gallery" id="construction-gallery">
+                    <!-- 图片将通过JavaScript动态加载 -->
+                </div>
+            </div>
+        </section>
+        
+        <!-- 楼顶大字 -->
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title">楼顶大字</h2>
+                <div class="gallery" id="rooftop-gallery">
+                    <!-- 图片将通过JavaScript动态加载 -->
+                </div>
+            </div>
+        </section>
+        
+        <!-- 门头招牌 -->
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title">门头招牌</h2>
+                <div class="gallery" id="signboard-gallery">
+                    <!-- 图片将通过JavaScript动态加载 -->
+                </div>
+            </div>
+        </section>
+        
+        <!-- 文化墙 -->
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title">文化墙</h2>
+                <div class="gallery" id="culture-gallery">
+                    <!-- 图片将通过JavaScript动态加载 -->
+                </div>
+            </div>
+        </section>
+        
+        <!-- 企业简介 -->
+        <section class="section about">
+            <div class="container">
+                <h2 class="section-title">企业简介</h2>
+                <div class="about-content">
+                    <p>沛县苏艺广告有限公司是一家位于徐州市沛县南环路领创国际广场D27的专业广告公司。自成立以来，我们一直致力于为客户提供高质量的广告设计、制作、安装及宣传服务。我们的团队由一群经验丰富、创意无限的专业人士组成，他们对广告行业充满热情，致力于为每个客户打造独特而有效的广告解决方案。</p>
+                    <p>我们提供全方位的广告服务，包括但不限于标识标牌、发光字、工地标准化、楼顶大字、门头招牌和文化墙等。无论您是需要为商业场所打造醒目的标识，还是为建筑工地设计标准化的安全标识，或是为您的企业打造富有创意的文化墙，我们都能满足您的需求。</p>
+                    <p>我们的标识标牌宣传栏设计精美，制作精良，能够有效提升品牌形象；发光字产品采用先进的发光技术，确保在夜间也能清晰可见，为您的店铺或企业增添光彩；工地标准化系列则严格按照安全规范制作，既美观又实用；楼顶大字和门头招牌则能从远处吸引顾客的注意力，提升品牌知名度；而文化墙则通过创意设计和精心制作，展现企业的独特文化和价值观。</p>
+                    <p>我们深知，每个客户的需求都是独特的。因此，我们提供个性化的服务，从初步咨询到方案设计，再到制作安装，每一步都与客户保持紧密沟通，确保最终效果符合甚至超越客户的期望。我们的目标是通过专业的服务和创新的设计，帮助客户实现品牌价值的最大化。</p>
+                    <p>如果您正在寻找一家可靠、专业的广告公司，沛县苏艺广告有限公司将是您的理想选择。我们期待与您合作，共同创造更多精彩的广告作品。欢迎随时联系我们，电话：18952151583，18952228500。</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <!-- 页脚 -->
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>联系我们</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 公司地址：徐州市沛县南环路领创国际广场 D27</p>
+                    <p><i class="fas fa-phone"></i> 联系电话：18952151583</p>
+                    <p><i class="fas fa-phone"></i> 联系电话：18952228500</p>
+                </div>
+                <div class="footer-section">
+                    <h3>服务项目</h3>
+                    <p><i class="fas fa-check"></i> 标识标牌宣传栏</p>
+                    <p><i class="fas fa-check"></i> 发光字</p>
+                    <p><i class="fas fa-check"></i> 工地标准化</p>
+                    <p><i class="fas fa-check"></i> 楼顶大字</p>
+                    <p><i class="fas fa-check"></i> 门头招牌</p>
+                    <p><i class="fas fa-check"></i> 文化墙</p>
+                </div>
+                <div class="footer-section">
+                    <h3>关于我们</h3>
+                    <p>沛县苏艺广告有限公司是一家专业从事广告设计、制作、安装及宣传的综合型企业。我们拥有丰富的行业经验和技术团队，致力于为客户提供高质量的广告服务。</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 沛县苏艺广告有限公司 版权所有</p>
+            </div>
+        </div>
+    </footer>
+    
+    <script>
+        // 图片数据
+        const signageImages = [
+            "http://img8.dfco.cn/pxsygg/bsbpxcl-01.jpg",
+            "http://img8.dfco.cn/pxsygg/bsbpxcl-02.jpg",
+            "http://img8.dfco.cn/pxsygg/bsbpxcl-03.jpg",
+            "http://img8.dfco.cn/pxsygg/bsbpxcl-04.jpg",
+            "http://img8.dfco.cn/pxsygg/bsbpxcl-05.jpg",
+            "http://img8.dfco.cn/pxsygg/bsbpxcl-06.jpg",
+            "http://img8.dfco.cn/pxsygg/bsbpxcl-07.jpg",
+            "http://img8.dfco.cn/pxsygg/bsbpxcl-08.jpg",
+            "http://img8.dfco.cn/pxsygg/bsbpxcl-09.jpg",
+            "http://img8.dfco.cn/pxsygg/bsbpxcl-10.jpg",
+            "http://img8.dfco.cn/pxsygg/bsbpxcl-11.jpg",
+            "http://img8.dfco.cn/pxsygg/bsbpxcl-12.jpg",
+            "http://img8.dfco.cn/pxsygg/bsbpxcl-13.jpg",
+            "http://img8.dfco.cn/pxsygg/bsbpxcl-14.jpg",
+            "http://img8.dfco.cn/pxsygg/bsbpxcl-15.jpg",
+            "http://img8.dfco.cn/pxsygg/bsbpxcl-16.jpg"
+        ];
+        
+        const lightwordImages = [
+            "http://img8.dfco.cn/pxsygg/fgz-01.jpg",
+            "http://img8.dfco.cn/pxsygg/fgz-02.jpg",
+            "http://img8.dfco.cn/pxsygg/fgz-03.jpg",
+            "http://img8.dfco.cn/pxsygg/fgz-04.jpg",
+            "http://img8.dfco.cn/pxsygg/fgz-05.jpg",
+            "http://img8.dfco.cn/pxsygg/fgz-06.jpg",
+            "http://img8.dfco.cn/pxsygg/fgz-07.jpg",
+            "http://img8.dfco.cn/pxsygg/fgz-08.jpg"
+        ];
+        
+        const constructionImages = [
+            "http://img8.dfco.cn/pxsygg/gdbzh-01.jpg",
+            "http://img8.dfco.cn/pxsygg/gdbzh-02.jpg",
+            "http://img8.dfco.cn/pxsygg/gdbzh-03.jpg",
+            "http://img8.dfco.cn/pxsygg/gdbzh-04.jpg",
+            "http://img8.dfco.cn/pxsygg/gdbzh-05.jpg",
+            "http://img8.dfco.cn/pxsygg/gdbzh-06.jpg",
+            "http://img8.dfco.cn/pxsygg/gdbzh-07.jpg",
+            "http://img8.dfco.cn/pxsygg/gdbzh-08.jpg",
+            "http://img8.dfco.cn/pxsygg/gdbzh-09.jpg",
+            "http://img8.dfco.cn/pxsygg/gdbzh-10.jpg",
+            "http://img8.dfco.cn/pxsygg/gdbzh-11.jpg",
+            "http://img8.dfco.cn/pxsygg/gdbzh-12.jpg",
+            "http://img8.dfco.cn/pxsygg/gdbzh-13.jpg",
+            "http://img8.dfco.cn/pxsygg/gdbzh-14.jpg",
+            "http://img8.dfco.cn/pxsygg/gdbzh-15.jpg",
+            "http://img8.dfco.cn/pxsygg/gdbzh-16.jpg",
+            "http://img8.dfco.cn/pxsygg/gdbzh-17.jpg",
+            "http://img8.dfco.cn/pxsygg/gdbzh-18.jpg",
+            "http://img8.dfco.cn/pxsygg/gdbzh-19.jpg",
+            "http://img8.dfco.cn/pxsygg/gdbzh-20.jpg",
+            "http://img8.dfco.cn/pxsygg/gdbzh-21.jpg",
+            "http://img8.dfco.cn/pxsygg/gdbzh-22.jpg",
+            "http://img8.dfco.cn/pxsygg/gdbzh-23.jpg",
+            "http://img8.dfco.cn/pxsygg/gdbzh-24.jpg"
+        ];
+        
+        const rooftopImages = [
+            "http://img8.dfco.cn/pxsygg/lddz-01.jpg",
+            "http://img8.dfco.cn/pxsygg/lddz-02.jpg",
+            "http://img8.dfco.cn/pxsygg/lddz-03.jpg",
+            "http://img8.dfco.cn/pxsygg/lddz-04.jpg",
+            "http://img8.dfco.cn/pxsygg/lddz-05.jpg",
+            "http://img8.dfco.cn/pxsygg/lddz-06.jpg",
+            "http://img8.dfco.cn/pxsygg/lddz-07.jpg",
+            "http://img8.dfco.cn/pxsygg/lddz-08.jpg"
+        ];
+        
+        const signboardImages = [
+            "http://img8.dfco.cn/pxsygg/mtzp-01.jpg",
+            "http://img8.dfco.cn/pxsygg/mtzp-02.jpg",
+            "http://img8.dfco.cn/pxsygg/mtzp-03.jpg",
+            "http://img8.dfco.cn/pxsygg/mtzp-04.jpg",
+            "http://img8.dfco.cn/pxsygg/mtzp-05.jpg",
+            "http://img8.dfco.cn/pxsygg/mtzp-06.jpg",
+            "http://img8.dfco.cn/pxsygg/mtzp-07.jpg",
+            "http://img8.dfco.cn/pxsygg/mtzp-08.jpg"
+        ];
+        
+        const cultureImages = [
+            "http://img8.dfco.cn/pxsygg/whq-01.jpg",
+            "http://img8.dfco.cn/pxsygg/whq-02.jpg",
+            "http://img8.dfco.cn/pxsygg/whq-03.jpg",
+            "http://img8.dfco.cn/pxsygg/whq-04.jpg",
+            "http://img8.dfco.cn/pxsygg/whq-05.jpg",
+            "http://img8.dfco.cn/pxsygg/whq-06.jpg",
+            "http://img8.dfco.cn/pxsygg/whq-07.jpg",
+            "http://img8.dfco.cn/pxsygg/whq-08.jpg",
+            "http://img8.dfco.cn/pxsygg/whq-09.jpg",
+            "http://img8.dfco.cn/pxsygg/whq-10.jpg",
+            "http://img8.dfco.cn/pxsygg/whq-11.jpg",
+            "http://img8.dfco.cn/pxsygg/whq-12.jpg"
+        ];
+        
+        // 动态加载图片
+        function loadImages(galleryId, images) {
+            const gallery = document.getElementById(galleryId);
+            images.forEach(imageSrc => {
+                const galleryItem = document.createElement('div');
+                galleryItem.className = 'gallery-item';
+                
+                const img = document.createElement('img');
+                img.src = imageSrc;
+                img.alt = galleryId;
+                img.loading = "lazy"; // 添加懒加载
+                
+                galleryItem.appendChild(img);
+                gallery.appendChild(galleryItem);
+            });
+        }
+        
+        // 页面加载完成后执行
+        window.addEventListener('DOMContentLoaded', () => {
+            loadImages('signage-gallery', signageImages);
+            loadImages('lightword-gallery', lightwordImages);
+            loadImages('construction-gallery', constructionImages);
+            loadImages('rooftop-gallery', rooftopImages);
+            loadImages('signboard-gallery', signboardImages);
+            loadImages('culture-gallery', cultureImages);
+        });
+    </script>
+</body>
+</html>
